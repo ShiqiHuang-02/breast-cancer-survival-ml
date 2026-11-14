@@ -56,7 +56,6 @@ breast-cancer-survival-ml/
 ├── data/
 │   ├── raw/                 # original .sav + CSV export
 │   └── README.md            # data dictionary
-├── docs/                    # academic report (original course paper)
 ├── output/                  # generated figures + tables
 ├── install.R                # one-shot dependency installer
 └── .Rprofile                # uses the project-local lib/
@@ -140,7 +139,6 @@ test.
 - Single master `SEED` plus per-repeat seeds in `R/00_setup.R`.
 - All packages pinned via the project-local library and recorded in
   `output/session_info.txt`.
-- Original academic report preserved in `docs/`.
 
 ---
 

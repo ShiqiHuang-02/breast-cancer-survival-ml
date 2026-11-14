@@ -7,7 +7,7 @@ CSV export used as the primary runtime input.
 
 | Variable  | Type        | Description                                              | Missing |
 |-----------|-------------|----------------------------------------------------------|---------|
-| `id`      | int         | Patient identifier (dropped before modelling)            | 0       |
+| `id`      | int         | Row number (dropped before modelling; not a real patient ID) | 0       |
 | `age`     | numeric     | Age at diagnosis (years)                                 | 0       |
 | `pathsize`| numeric     | Pathologic tumor size (cm)                               | 86      |
 | `lnpos`   | numeric     | Number of positive axillary lymph nodes                  | 0       |
@@ -23,3 +23,7 @@ comparing classical and machine-learning survival models.
 
 Note: this is a public research dataset used for an educational project. If
 you deploy or publish, verify its license terms on Kaggle.
+
+Privacy: the dataset contains no names, hospital IDs, or other personal
+identifiers — every column is a de-identified clinical feature (the `id`
+column is only a row number). It is safe to keep this data public in the repo.

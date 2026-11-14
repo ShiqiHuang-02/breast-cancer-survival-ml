@@ -11,5 +11,6 @@ Rplots.pdf
 
 # OS
 .DS_Store
-docs/
+
+# Academic report (kept locally only, not committed)
 docs/
